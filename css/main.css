@@ -1,0 +1,58 @@
+/*菜单*/
+#search .form-group input{
+    border-radius: 20px;
+    width: 120px;
+}
+#search button{
+    border-radius: 20px;
+    outline: 0px
+}
+#menu ul li a {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#wrap{
+    margin-top: 51px;
+    height: auto;
+}
+/*左侧*/
+#left-side .sidebar{
+    margin-top: 20px;
+    width: 100%;
+}
+#left-side .sidebar .active{
+    width: 100%;
+    color: #122b40;
+    background-color: #8c8c8c;
+}
+#left-side .sidebar li{
+    font-weight: bolder;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 5px;
+    width: 90%;
+    background-color: #122b40;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#left-side .sidebar li a{
+    cursor: pointer;
+    color: #9acfea;
+    font-size: 16px;
+    margin-left: 40px;
+}
+#left-side .sidebar li a{
+    text-decoration: none;
+}
+/*右侧*/
+#right-side{
+    margin-top: 20px;
+}
+#right-side table tbody tr{
+    height: 40px;
+}
+#right-side table tbody tr td{
+    line-height: 40px;
+}

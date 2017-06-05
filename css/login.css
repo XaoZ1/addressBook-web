@@ -1,0 +1,56 @@
+body {
+    background: #000;
+    overflow: hidden;
+}
+#login{
+    width:300px;/**宽度**/
+    height:300px;/**高度**/
+    position:absolute;/**绝对定位**/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-100px;/**上移-50%**/
+    margin-left:-150px;/**左移-50%**/
+    /*background-color: #dddddd;*/
+    text-align: center;
+    color: #ffffff;
+    /*transform:rotate(45deg);*/
+    /*-ms-transform:rotate(45deg); !* Internet Explorer *!*/
+    /*-moz-transform:rotate(45deg); !* Firefox *!*/
+    /*-webkit-transform:rotate(45deg); !* Safari 和 Chrome *!*/
+    /*-o-transform:rotate(45deg); !* Opera *!*/
+    z-index: 999;
+}
+
+#login input{
+    height: 30px;
+    width: 100%;
+    margin: 15px auto;
+    color: #ffffff;
+    padding:5px;
+    border-radius: 20px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+}
+#login input[type='button']{
+    width: 40%;
+    height: 40px;
+    color: #ffffff;
+    font-weight: normal;
+    font-family: 幼圆;
+}
+canvas {
+    width:400px;/**宽度**/
+    height:400px;/**高度**/
+    position:absolute;/**绝对定位**/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-200px;/**上移-50%**/
+    margin-left:-200px;/**左移-50%**/
+    bottom: 0;
+    box-shadow: 0 0 0 10px #111;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
