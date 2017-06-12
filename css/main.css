@@ -21,10 +21,13 @@
     margin-top: 20px;
     width: 100%;
 }
-#left-side .sidebar .active{
-    width: 100%;
-    color: #122b40;
-    background-color: #8c8c8c;
+#left-side .sidebar .active {
+    box-shadow: #7FAFC4 0px 1px 10px;
+}
+#left-side .sidebar .active a{
+    /*width: 100%;*/
+    color: #7F8DC4;
+    /*background-color: #8c8c8c;*/
 }
 #left-side .sidebar li{
     font-weight: bolder;
@@ -32,16 +35,17 @@
     line-height: 40px;
     text-align: left;
     margin-top: 5px;
-    width: 90%;
-    background-color: #122b40;
+    width: 80%;
+    /*background-color: #122b40;*/
+    border:1px solid #80CEC5;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 #left-side .sidebar li a{
     cursor: pointer;
-    color: #9acfea;
+    color: #80CEC5;
     font-size: 16px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 #left-side .sidebar li a{
     text-decoration: none;

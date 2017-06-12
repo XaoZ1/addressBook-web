@@ -12,7 +12,7 @@ $(function () {
         $(this).attr('class','active').siblings().removeClass('active');
     })
     $("#left-side .sidebar li").click(function () {
-        $(this).attr('class','active').siblings().removeClass('active');
+        $(this).animate({width:"100%"},200).attr('class','active').siblings().removeClass('active').animate({width:"80%"});
     })
 })
 
